@@ -87,9 +87,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# GitHub token for HomeBrew
-export HOMEBREW_GITHUB_API_TOKEN=75cf2c4aea9479c2f6a5c9a8c13eb7dee6f93199
-
 # Adding LaTeX binaries to path
 export PATH=$PATH':/Library/TeX/texbin/'
 
@@ -98,5 +95,3 @@ export PATH="$PATH:$HOME/bin" # Add RVM to PATH for scripting
 
 export LC_ALL=no_NO.UTF-8
 export LANG=en_US.UTF-8
-
-export JBOSS_HOME=/Users/kristoffer/Downloads/jss7/jboss-5.1.0.GA/
