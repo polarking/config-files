@@ -31,5 +31,12 @@ Set-Alias grep findstr.exe
 Function prompt
 {
   $p = split-path -leaf -path (get-location)
-  "$p ~> "
+  if($p.equals($env:UserName))
+  {
+    "~> "
+  }
+  else 
+  {
+    "$p ~> "
+  }
 }
